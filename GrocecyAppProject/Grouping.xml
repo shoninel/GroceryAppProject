@@ -1,0 +1,13 @@
+<suite name="mysuite">
+	<test name="testgrouping">
+		<groups>
+			<run>
+				<exclude name="high"></exclude>
+				<exclude name="medium"></exclude>
+			</run>
+		</groups>
+		<classes>
+		<class name="testCases.AddProductTestCases"></class>
+		</classes>
+	</test>
+</suite>
